@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,5 +11,47 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
+    <div id="container">
+      <div id="profile">
+        <div id="pfp"></div>
+        <p>@felipepalamede</p>
+      </div>
+      <div id="switch" onClick="toggleMode()">
+        <button>
+        </button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="#" target="_blank">Access my portfolio</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Check out my Github</a>
+        </li>
+        <li>
+          <a href="#" target="_blank">Access my LinkedIn profile</a>
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="#" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Made by <span id="author-name">Felipe Palamede</span> ♥
+      </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
